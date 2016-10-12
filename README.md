@@ -19,11 +19,17 @@ doi: 10.1111/jsr.12166
 Quick Overview of important functions:
 
 mixedEstimator: Estimator combines the standard MLE with Chi^2 based estimator to estimate DDM parameters from raw RT data. This is the preferred function for parameter estimation.
+
 simulatePVT: Simulates a PVT with the provided DDM parameters 
+
 simulateProcess: Simulate diffusion processes with provided DDM parameters
+
 estimateMLE: MLE base estimator1
+
 ddmCDF: cummulative distribution function for the DDM (see ACM publication for details)
+
 r: probability density function for DDM
+
 shiftedWald: sampler for shifted wald distribution
 
 Read and run test.m for a use case application
