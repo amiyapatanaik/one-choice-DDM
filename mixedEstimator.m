@@ -9,6 +9,7 @@
 %
 % It is recommended that this estimator is used for practical applications
 %
+% theta: parameter vector [a, Ter (sec), eta, St(sec), xi]
 % Tuned to work for standard PVTs
 %
 % For details refer to:
